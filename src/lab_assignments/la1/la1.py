@@ -12,7 +12,7 @@ data = sc.textFile("u.data")
 
 #split each line into its list record
 #map 1st element in each list to a value of one and format as a tuple key value pair
-#store data in cache instead of hdd
+#store data in cache instead of hddbbbbbnnbbb                                   
 wc = data.map(lambda line: line.split("\t")).map(lambda word: (word[0], 1)).cache()
 
 #combine everywhere the key is the same
@@ -30,4 +30,4 @@ else:
     output = wcFilter.collect()
     outputText = open("OutputText.txt", "w")
     outputText.write(str(output))
-    outputText.close()
+    outputText.close
