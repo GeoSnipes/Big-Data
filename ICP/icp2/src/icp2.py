@@ -13,7 +13,13 @@ file = sc.textFile("icp2_phrases.txt")
 wordGroup = file.flatMap(lambda line: line.split(" ")).map(lambda word: (word[0], word)).cache()
 wordGroup = wordGroup.groupByKey().mapValues(list)
 TWG = wordGroup.collect()
-for val in TWG:
-    #print(val) or
-    printList(val)
-    print()
+
+if True:
+    # spark raw output
+    wordGroup.saveAsTextFile("Output")
+else:
+    # in program output
+    for val in TWG:
+        #print(val) or
+        printList(val)
+        print()
