@@ -21,6 +21,7 @@ wcCount = wc.reduceByKey(lambda x, y: x+y)
 #return only entries where count is grater than 25
 wcFilter = wcCount.filter(lambda word : word[1] > 25)
 
+
 if True:
     #output using Spark
     wcFilter.saveAsTextFile("output")
@@ -30,4 +31,4 @@ else:
     output = wcFilter.collect()
     outputText = open("Output.txt", "w")
     outputText.write(str(output))
-    outputText.close
+    outputText.close()
