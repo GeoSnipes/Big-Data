@@ -16,6 +16,7 @@
     <p>--------------------Lab Assignment--------------------</p>
     <ul>
       <li> LA 1: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-1</li>
+      <li> LA 2: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-2</li>
     </ul>
   </div
 </div>
