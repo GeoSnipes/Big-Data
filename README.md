@@ -11,6 +11,8 @@
       <li>ICP 4: https://github.com/GeoSnipes/Big-Data/wiki/ICP4</li>
       <li>ICP 5: https://github.com/GeoSnipes/Big-Data/wiki/ICP5</li>
       <li>ICP 6: https://github.com/GeoSnipes/Big-Data/wiki/ICP6</li>
+      <li>ICP 7: https://github.com/GeoSnipes/Big-Data/wiki/ICP7</li>
+      <li>ICP 8: https://github.com/GeoSnipes/Big-Data/wiki/ICP8</li>
     </ul>
   </div>
   <br>
