@@ -1,7 +1,6 @@
 
 problem_sets/ps1_p1.py
 problem_sets/ps2_p2.py
-*.jpg
 *.xml
 *.txt
 Project/Increment2/WebsiteScaper/secret.py
