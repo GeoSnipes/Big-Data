@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.linear_model import SGDClassifier
 from sklearn.metrics import classification_report
 from sklearn.metrics import confusion_matrix
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from imutils import paths
 import numpy as np
 import argparse
@@ -83,6 +83,7 @@ print("[INFO] evaluating classifier...")
 predictions = model.predict(testData)
 print(classification_report(testLabels, predictions, target_names=le.classes_))
 print(confusion_matrix(testLabels, predictions))
+
 # to demonstrate that our classifier actually "learned" from
 # our training data, randomly sample a few training images
 idxs = np.random.choice(np.arange(0, len(trainData)), size=(5,))
@@ -92,9 +93,10 @@ for i in idxs:
     # predict class probabilities based on the extracted color
     # histogram
     hist = trainData[i].reshape(1, -1)
-    (catProb, dogProb) = model.predict_proba(hist)[0]
+    (donutProb, dumplinProb, frenchfriesProb, hotdogsProb, sushiProb) = model.predict_proba(hist)[0]
 
     # show the predicted probabilities along with the actual
     # class label
-    print("cat={:.1f}%, dog={:.1f}%, actual={}".format(catProb * 100,
-                                                       dogProb * 100, le.inverse_transform(trainLabels[i])))
+    print("donut={:.1f}%, dumplin={:.1f}%,frenchfries={:.1f}%, hotdogs={:.1f}%, sushi={:.1f}%, actual={}".format(
+        donutProb * 100, dumplinProb * 100, frenchfriesProb * 100, hotdogsProb * 100, sushiProb * 100,
+        le.inverse_transform(trainLabels[i])))

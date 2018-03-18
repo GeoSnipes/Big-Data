@@ -122,7 +122,6 @@ object ImageUtils {
 
     val noOfCols = imageCvmat.cols()
     val noOfRows = imageCvmat.rows()
-
     val fVectors = new mutable.MutableList[String]
     //Channels discarded, take care of this when you are using multiple channels
 

@@ -1,2 +1,0 @@
-
-logLevel := sbt.Level.Error

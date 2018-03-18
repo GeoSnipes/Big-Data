@@ -52,7 +52,7 @@ object IPApp {
     val data = sc.textFile(IPSettings.FEATURES_PATH)
     val parsedData = data.map(s => Vectors.dense(s.split(' ').map(_.toDouble)))
 
-    // Cluster the data into {#400} classes using KMeans
+    // Cluster the data into {#5} classes using KMeans
     val numClusters = 5
     val numIterations = 20
     val clusters = KMeans.train(parsedData, numClusters, numIterations)
@@ -115,7 +115,7 @@ object IPApp {
       LabeledPoint(parts(0).toDouble, Vectors.dense(parts(1).split(' ').map(_.toDouble)))
     }
 
-    val splits = parsedData.randomSplit(Array(0.8, 0.2), seed = 11L)
+    val splits = parsedData.randomSplit(Array(0.5, 0.5), seed = 11L)
     val training = splits(0)
     val test = splits(1)
 
@@ -144,7 +144,7 @@ object IPApp {
       LabeledPoint(parts(0).toDouble, Vectors.dense(parts(1).split(' ').map(_.toDouble)))
     }
 
-    val splits = parsedData.randomSplit(Array(0.8, 0.2), seed = 11L)
+    val splits = parsedData.randomSplit(Array(0.5, 0.5), seed = 11L)
     val training = splits(0)
     val test = splits(1)
 
@@ -185,7 +185,7 @@ object IPApp {
     }
 
     // Split data into training (80%) and test (20%).
-    val splits = parsedData.randomSplit(Array(0.8, 0.2), seed = 11L)
+    val splits = parsedData.randomSplit(Array(0.5, 0.5), seed = 11L)
     val training = splits(0)
     val test = splits(1)
 
@@ -195,9 +195,9 @@ object IPApp {
     val categoricalFeaturesInfo = Map[Int, Int]()
     val maxBins = 100
 
-    val numOfTrees = 5 to(8, 1)
+    val numOfTrees = 5 to(10, 1)
     val strategies = List("all", "sqrt", "log2", "onethird")
-    val maxDepths = 3 to(6, 1)
+    val maxDepths = 3 to(8, 1)
     val impurities = List("gini", "entropy")
 
     var bestModel: Option[RandomForestModel] = None

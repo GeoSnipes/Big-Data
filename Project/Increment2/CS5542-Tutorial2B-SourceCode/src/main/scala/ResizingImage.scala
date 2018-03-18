@@ -6,12 +6,12 @@ import org.bytedeco.javacpp.opencv_highgui._
 /**
   * Created by Mayanka on 16-Mar-16.
   */
-object ResizingImage {
+object ResizingImage{
 
   def main(args: Array[String]) {
     val IMAGE_CATEGORIES = List("donut", "dumplins", "frenchfries", "hotdogs", "sushis")
     val PATH = "data/train/"
-    val PATH2 = "data/train2/"
+    val PATH2 = "data/train3/"
     IMAGE_CATEGORIES.foreach(f => {
       val file = new File(PATH + f)
       val listOffiles = file.listFiles()
