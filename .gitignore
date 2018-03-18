@@ -5,3 +5,6 @@ problem_sets/ps2_p2.py
 *.xml
 *.txt
 Project/Increment2/WebsiteScaper/secret.py
+*.pyc
+*.iml
+*.THEBEAST-SNIPES
