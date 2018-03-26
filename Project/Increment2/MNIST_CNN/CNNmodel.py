@@ -3,7 +3,7 @@ import time
 start = int(round(time.time() * 1000))
 from tensorflow.examples.tutorials.mnist import input_data
 
-mnist = input_data.read_data_sets('MNIST_data', one_hot=True, validation_size=200)
+mnist = input_data.read_data_sets('MNIST_data', one_hot=True, validation_size=500)
 import tensorflow as tf
 
 sess = tf.InteractiveSession()
@@ -84,7 +84,7 @@ trainwriter = tf.summary.FileWriter('data/logs', sess.graph)
 sess.run(tf.global_variables_initializer())
 
 for i in range(500):
-    batch_adam = mnist.train.next_batch(50)
+    batch_adam = mnist.train.next_batch(100)
     summary_adam, _ = sess.run([merged, train_step], feed_dict={x: batch_adam[0], y_: batch_adam[1], keep_prob: 0.5})
     trainwriter.add_summary(summary_adam, i)
     if i % 100 == 0:

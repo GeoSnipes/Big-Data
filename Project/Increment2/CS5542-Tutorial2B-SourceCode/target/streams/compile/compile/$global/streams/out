@@ -7,10 +7,10 @@
 [0m[[0m[33mwarn[0m] [0m[0mF:\Big-Data\Project\Increment2\CS5542-Tutorial2B-SourceCode\src\main\scala\ImageUtils.scala:112:32: method get in class AbstractCvMat is deprecated: see corresponding Javadoc for more information.[0m
 [0m[[0m[33mwarn[0m] [0m[0m        val pixel = imageCvmat.get(row, col)[0m
 [0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mF:\Big-Data\Project\Increment2\CS5542-Tutorial2B-SourceCode\src\main\scala\ImageUtils.scala:131:32: method get in class AbstractCvMat is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0mF:\Big-Data\Project\Increment2\CS5542-Tutorial2B-SourceCode\src\main\scala\ImageUtils.scala:130:32: method get in class AbstractCvMat is deprecated: see corresponding Javadoc for more information.[0m
 [0m[[0m[33mwarn[0m] [0m[0m        val pixel = imageCvmat.get(row, col)[0m
 [0m[[0m[33mwarn[0m] [0m[0m                               ^[0m
-[0m[[0m[33mwarn[0m] [0m[0mF:\Big-Data\Project\Increment2\CS5542-Tutorial2B-SourceCode\src\main\scala\ImageUtils.scala:149:25: method put in class AbstractCvMat is deprecated: see corresponding Javadoc for more information.[0m
+[0m[[0m[33mwarn[0m] [0m[0mF:\Big-Data\Project\Increment2\CS5542-Tutorial2B-SourceCode\src\main\scala\ImageUtils.scala:148:25: method put in class AbstractCvMat is deprecated: see corresponding Javadoc for more information.[0m
 [0m[[0m[33mwarn[0m] [0m[0m        vocab.asCvMat().put(i, j, v)[0m
 [0m[[0m[33mwarn[0m] [0m[0m                        ^[0m
 [0m[[0m[33mwarn[0m] [0m[0m5 warnings found[0m

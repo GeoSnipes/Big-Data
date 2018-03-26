@@ -119,7 +119,6 @@ object ImageUtils {
 
   def matToString(mat: Mat): List[String] = {
     val imageCvmat = mat.asCvMat()
-
     val noOfCols = imageCvmat.cols()
     val noOfRows = imageCvmat.rows()
     val fVectors = new mutable.MutableList[String]
