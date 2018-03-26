@@ -1,8 +1,8 @@
 import tensorflow as tf, sys
 
 #image_path = sys.argv[1]
-# image_path = "data/flower_photos/tulips/11746080_963537acdc.jpg"
-image_path = '676728-bigthumbnail.jpg'
+image_path = "data/flower_photos/tulips/11746080_963537acdc.jpg"
+# image_path = '676728-bigthumbnail.jpg'
 
 # Read in the image_data
 image_data = tf.gfile.FastGFile(image_path, 'rb').read()
