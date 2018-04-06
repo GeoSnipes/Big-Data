@@ -21,3 +21,5 @@ dataset/
 *.pb
 ICP/icp5/src/image_classification/project/
 target/
+*.jpg
+.idea/
