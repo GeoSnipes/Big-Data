@@ -24,6 +24,7 @@
       <li> LA 1: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-1</li>
       <li> LA 2: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-2</li>
       <li> LA 3: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-3</li>
+      <li> LA 5: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-5</li>
     </ul>
   </div
 </div>
