@@ -23,3 +23,4 @@ ICP/icp5/src/image_classification/project/
 target/
 *.jpg
 .idea/
+events.out.tfevents.*
