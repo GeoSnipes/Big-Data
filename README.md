@@ -1,12 +1,14 @@
 # Big-Data
+
+Tutorial 1: Project Management Tools & Installations•GitHubRepository CreationCloning repositoriesSyncing local with remoteMaintaining Branches•Zen HubIssues, Milestones •Operating SystemUbuntu, Windows•FrameworkApache Spark,Tensorflow•IDE’SIntellij,Pycharm,  Android  Studio
 <div> 
   <p>Wiki's</p>
 
   <div>
     <p>-------------------In Class Program-------------------</p>
     <ul>
-      <li>ICP 1: https://github.com/GeoSnipes/Big-Data/wiki/ICP1</li>
-      <li>ICP 2: https://github.com/GeoSnipes/Big-Data/wiki/ICP2</li>
+      <li>ICP 1: https://github.com/GeoSnipes/Big-Data/wiki/ICP1    Spark Programming</li>
+      <li>ICP 2: https://github.com/GeoSnipes/Big-Data/wiki/ICP2    Linear Regression & Clustering & Video Anotation</li>
       <li>ICP 3: https://github.com/GeoSnipes/Big-Data/wiki/ICP3</li>
       <li>ICP 4: https://github.com/GeoSnipes/Big-Data/wiki/ICP4</li>
       <li>ICP 5: https://github.com/GeoSnipes/Big-Data/wiki/ICP5</li>
