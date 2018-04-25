@@ -1,17 +1,4 @@
 
-*.xml
-*.txt
-*.pyc
-*.iml
-*.THEBEAST-SNIPES
-data/
-dataset/
-/target/
-*.DS_Store
-*.pb
-target/
 *.jpg
-.idea/
-events.out.tfevents.*
 **/.idea
 
