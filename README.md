@@ -13,7 +13,7 @@ Tutorial 1: Project Management Tools & Installations•GitHubRepository Creat
       <li>ICP 4: https://github.com/GeoSnipes/Big-Data/wiki/ICP4    Spark Image Classification</li>
       <li>ICP 5: https://github.com/GeoSnipes/Big-Data/wiki/ICP5    Spark Server REST Api</li>
       <li>ICP 6: https://github.com/GeoSnipes/Big-Data/wiki/ICP6    Image Classification</li>
-      <li>ICP 7: https://github.com/GeoSnipes/Big-Data/wiki/ICP7</li>
+      <li>ICP 7: https://github.com/GeoSnipes/Big-Data/wiki/ICP7    Tensorflow Programming</li>
       <li>ICP 8: https://github.com/GeoSnipes/Big-Data/wiki/ICP8    MNIST  Classification</li>
       <li>ICP 9: https://github.com/GeoSnipes/Big-Data/wiki/ICP9    Image Classification-CNN</li>
       <li>ICP 10: https://github.com/GeoSnipes/Big-Data/wiki/ICP10-(Inception-Model)</li>
@@ -23,10 +23,11 @@ Tutorial 1: Project Management Tools & Installations•GitHubRepository Creat
   <div>
     <p>--------------------Lab Assignment--------------------</p>
     <ul>
-      <li> LA 1: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-1</li>
-      <li> LA 2: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-2</li>
-      <li> LA 3: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-3</li>
-      <li> LA 5: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-5</li>
+      <li> LA 1: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-1    </li>
+      <li> LA 2: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-2    Machine Learning Applications & Analytics, Image Classifications</li>
+      <li> LA 3: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-3    Spark Machine Learning, Android Object Detection with Clarifai and Spark</li>
+      <li> LA 5: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-5    Tensorflow CNN, Inception, and Flask</li>
+      <li> LA 6:     Android Applications with TensorFlow</li>
     </ul>
   </div
 </div>
