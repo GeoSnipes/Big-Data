@@ -27,7 +27,7 @@ Tutorial 1: Project Management Tools & Installations•GitHubRepository Creat
       <li> LA 2: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-2    Machine Learning Applications & Analytics, Image Classifications</li>
       <li> LA 3: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-3    Spark Machine Learning, Android Object Detection with Clarifai and Spark</li>
       <li> LA 5: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-5    Tensorflow CNN, Inception, and Flask</li>
-      <li> LA 6: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-6    Android Applications with TensorFlow</li>
+      <li> LA 6: https://github.com/GeoSnipes/Big-Data/wiki/Lab-Assignment-6    Android Applications with TensorFlow and TFLite</li>
     </ul>
   </div
 </div>
