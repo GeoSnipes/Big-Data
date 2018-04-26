@@ -1,4 +1,11 @@
 
 *.jpg
 **/.idea
-
+**/config-classes
+**/bottlenecks
+**/Ionic
+**/SaveMyLife
+**/.DS_Store
+**/RetrainInceptionFinalLayer/data/inception
+**/retrain_logs
+**/logs
