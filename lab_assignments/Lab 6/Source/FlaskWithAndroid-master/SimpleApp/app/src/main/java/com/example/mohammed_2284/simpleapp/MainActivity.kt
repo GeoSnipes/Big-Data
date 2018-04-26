@@ -60,6 +60,7 @@ class MainActivity : AppCompatActivity() {
                     .enqueue(object : Callback<ResponseBody> {
                         override fun onFailure(call: Call<ResponseBody>, t: Throwable) {
                             println("---TTTT :: POST Throwable EXCEPTION:: " + t.message)
+                            Toast.makeText(applicationContext, t.message, Toast.LENGTH_SHORT).show()
                         }
 
                         override fun onResponse(call: Call<ResponseBody>, response: Response<ResponseBody>) {
@@ -69,6 +70,11 @@ class MainActivity : AppCompatActivity() {
                                 println("---TTTT :: POST msg from server :: " + msg)
                                 Toast.makeText(applicationContext, msg, Toast.LENGTH_SHORT).show()
                             }
+                            else{
+                                val msg = response.body()?.string()
+                                Toast.makeText(applicationContext, msg, Toast.LENGTH_SHORT).show()
+                            }
+
                         }
                     })
         }

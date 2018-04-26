@@ -16,7 +16,9 @@ app = Flask(__name__)
 @app.route('/api/predict', methods=['POST'])
 @cross_origin()
 def predict():
-    data = request.get_json(silent=True)['imageBase64']
+    print("Connection created: ", request.environ['REMOTE_ADDR'])
+    data = request.get_json()['imageBase64']
+    # data = request.values['imageBase64']
     # Since python-3 has unicode string, the bytes datatype was introduced. You have to convert your string to a bytearray,
     # e.g. by using b = bytes(mystring, 'utf-8'), and then using b for the encoding: EncodedString = base64.b64encode(b),
     # which will return a bytearray
@@ -57,6 +59,7 @@ def predict():
             output_score.append(score)
             print('%s (score = %.5f)' % (human_string, score))
     return jsonify(output_string[0])
+    # return jsonify(results=[output_string])
 
 
 @app.route('/')
@@ -66,12 +69,14 @@ def main():
 
 # set FLASK_APP=label_image.py
 # python -m flask run --host=0.0.0.0
+# python -m flask run
 #  * Running on your ip address
 
 # or
-if __name__ == '__main__':
+# if __name__ == '__main__':
     #app.debug = True
-    app.run(host='0.0.0.0')
+    # app.run(host='0.0.0.0')
+    # app.run()
 
 # and use
 # python label_image.py
