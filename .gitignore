@@ -1,9 +1,11 @@
 
-problem_sets/ps1_p1.py
-problem_sets/ps2_p2.py
-*.xml
-*.txt
-Project/Increment2/WebsiteScaper/secret.py
-*.pyc
-*.iml
-*.THEBEAST-SNIPES
+*.jpg
+**/.idea
+**/config-classes
+**/bottlenecks
+**/Ionic
+**/SaveMyLife
+**/.DS_Store
+**/RetrainInceptionFinalLayer/data/inception
+**/retrain_logs
+**/logs
