@@ -73,9 +73,9 @@ def main():
 #  * Running on your ip address
 
 # or
-# if __name__ == '__main__':
+if __name__ == '__main__':
     #app.debug = True
-    # app.run(host='0.0.0.0')
+    app.run(host='0.0.0.0')
     # app.run()
 
 # and use
